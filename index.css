@@ -112,3 +112,16 @@ input, select {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+.sibmit {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.sibmit:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+.sibmit:active {
+    background-color: white;
+}

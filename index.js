@@ -7,7 +7,7 @@ document.getElementById('dealForm').addEventListener('submit', function(event) {
         data[key] = value;
     });
 
-    fetch('https://api.pipedrive.com/v1/deals?api_token=YOUR_API_TOKEN', {
+    fetch('https://api.pipedrive.com/v1/deals?api_token=0dfb0dd2d691f927f9484c36fa35797c8174a909', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
